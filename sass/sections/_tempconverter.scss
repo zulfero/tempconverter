@@ -9,15 +9,21 @@
   overflow: hidden;
 
   .temp_card {
+    @include flex(center, center, column);
     box-shadow: 2em;
     background-color: rgb(104, 182, 104);
     border-radius: 7px;
     width: 30%;
-    padding: 20em;
+    padding: 15em;
+
+    &-h1 {
+      @include flex(center, center);
+      align-items: center;
+    }
 
     .temp_card--content {
       @include flex(space-between, center);
-      gap: 2em;
+      gap: 3em;
     }
   }
 }

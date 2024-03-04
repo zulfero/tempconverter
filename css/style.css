@@ -16,11 +16,24 @@
   overflow: hidden;
 }
 .tempconverter .temp_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: no-wrap;
   box-shadow: 2em;
   background-color: rgb(104, 182, 104);
   border-radius: 7px;
   width: 30%;
-  padding: 20em;
+  padding: 15em;
+}
+.tempconverter .temp_card-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  align-items: center;
 }
 .tempconverter .temp_card .temp_card--content {
   display: flex;
@@ -28,5 +41,5 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: no-wrap;
-  gap: 2em;
+  gap: 3em;
 }
