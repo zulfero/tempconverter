@@ -1,0 +1,23 @@
+@use "../../sass/utilities/mixins" as *;
+@use "../../sass/utilities/variables" as *;
+
+.tempconverter {
+  background-color: rgb(153, 199, 153);
+  height: 100vh;
+  @include flex(center, center);
+  position: relative;
+  overflow: hidden;
+
+  .temp_card {
+    box-shadow: 2em;
+    background-color: rgb(104, 182, 104);
+    border-radius: 7px;
+    width: 30%;
+    padding: 20em;
+
+    .temp_card--content {
+      @include flex(space-between, center);
+      gap: 2em;
+    }
+  }
+}

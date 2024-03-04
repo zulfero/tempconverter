@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tempconverter {
+  background-color: rgb(153, 199, 153);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  position: relative;
+  overflow: hidden;
+}
+.tempconverter .temp_card {
+  box-shadow: 2em;
+  background-color: rgb(104, 182, 104);
+  border-radius: 7px;
+  width: 30%;
+  padding: 20em;
+}
+.tempconverter .temp_card .temp_card--content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  gap: 2em;
+}
