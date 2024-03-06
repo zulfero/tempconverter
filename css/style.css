@@ -41,3 +41,12 @@
   padding: 1em;
   border: none;
 }
+@media screen and (max-width: 600px) {
+  .tempconverter .temp_card--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    flex-wrap: no-wrap;
+  }
+}

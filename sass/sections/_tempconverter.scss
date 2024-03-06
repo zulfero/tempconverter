@@ -30,4 +30,9 @@
     }
    
   }
+  @media screen and (max-width: 600px) {
+    .temp_card--content{
+      @include flex(center, center, wrap);
+    }
+  }
 }
